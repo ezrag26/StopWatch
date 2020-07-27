@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+table td {
+    padding: .5em;
+}
+
+button {
+    padding: 1em;
+    border: none;
+}
+
+button:active {
+    color: black;
+}
