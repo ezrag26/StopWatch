@@ -2,10 +2,11 @@
   "name": "stopwatch",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "site/index.js",
   "scripts": {
     "build": "webpack --mode development --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev-server": "webpack-dev-server",
+    "test": "cypress open"
   },
   "author": "Ezra Gordon",
   "license": "ISC",
@@ -20,7 +21,9 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
+    "cypress": "^4.12.0",
     "webpack": "^4.44.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
